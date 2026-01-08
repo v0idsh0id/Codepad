@@ -2,14 +2,22 @@
   "name": "codepad",
   "version": "1.0.0",
   "description": "A coding tutorial application for learning through repetition and muscle memory.",
-  "main": "index.js",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
   },
-  "keywords": [],
+  "keywords": [
+    "coding",
+    "tutorial",
+    "typing",
+    "education",
+    "learning",
+    "practice",
+    "nextjs",
+    "typescript"
+  ],
   "author": "",
   "license": "ISC",
   "dependencies": {
