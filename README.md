@@ -57,6 +57,31 @@ npm run build
 npm start
 ```
 
+## GitHub Actions & Deployment
+
+This repository includes automated CI/CD workflows using GitHub Actions:
+
+### Continuous Integration (CI)
+The CI workflow automatically runs on every push and pull request to the `main` or `master` branch:
+- ✅ Builds the application
+- ✅ Runs TypeScript type checking
+- ✅ Tests on Node.js 18.x and 20.x
+
+### GitHub Pages Deployment
+The deployment workflow automatically deploys the app to GitHub Pages when changes are pushed to `main` or `master`:
+- 🚀 Builds a static export of the Next.js app
+- 🌐 Deploys to GitHub Pages
+- 🔄 Can be manually triggered from the Actions tab
+
+#### Setting up GitHub Pages
+To enable deployment:
+1. Go to your repository settings
+2. Navigate to **Pages** under the **Code and automation** section
+3. Under **Source**, select **GitHub Actions**
+4. The app will be automatically deployed on the next push to `main`/`master`
+
+Your app will be available at: `https://<username>.github.io/<repository-name>/`
+
 ## Technology Stack
 
 - **Framework:** Next.js 14 with App Router
