@@ -24,6 +24,7 @@ jobs:
     - name: Setup Node.js
       uses: actions/setup-node@v4
       with:
+        # Using Node.js 20 LTS for production deployment
         node-version: '20'
         cache: 'npm'
 
